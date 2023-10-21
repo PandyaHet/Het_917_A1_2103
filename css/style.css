@@ -21,21 +21,23 @@ body {
 .header-items {
     display: flex;
     list-style: none;
-    float: right;
     margin-left: 60%;
     margin-top: 2%;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
 }
 
 .header-items li {
     padding-left: 5%;
     margin: 0%;
-    font-size: 20px;
+    font-size: 15px;
 }
 
 
 main {
     display: flex;
+    flex-direction: column;
 }
 
 #content {
@@ -71,4 +73,14 @@ footer {
     background-color: rgb(3, 125, 247);
     color: #fff;
     padding: 10px 0;
+}
+
+@media only screen and (max-width: 480px) {
+    #content {
+        width: 100%;
+    }
+
+    aside {
+        width: 100%;
+    }
 }

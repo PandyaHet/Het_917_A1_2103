@@ -23,7 +23,8 @@ body {
     list-style: none;
     float: right;
     margin-left: 60%;
-    margin-top: 2%;
+    flex-wrap: wrap;
+    justify-content: space-between;
 
 }
 
